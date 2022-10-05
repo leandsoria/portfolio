@@ -20,7 +20,7 @@ const Header = (prop) => {
         />
         <meta
           property="og:image"
-          content="/experiences/freelance_front-end.jpg"
+          content="https://leandsoria.netlify.app/experiences/freelance_front-end.jpg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -38,7 +38,7 @@ const Header = (prop) => {
         />
         <meta
           property="twitter:image"
-          content="/experiences/freelance_front-end.jpg"
+          content="https://leandsoria.netlify.app/experiences/freelance_front-end.jpg"
         />
         <link
           rel="icon"
