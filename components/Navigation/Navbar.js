@@ -5,15 +5,15 @@ import Image from 'next/image';
 const Navbar = () => {
   return (
     <nav className="flex flex-row w-full justify-between lg:justify-around px-[6%] py-6">
-      <div className="w-2/3 lg:w-1/5 relative ">
-        <div className="w-30 h-28 ">
+      <div className="w-2/3 lg:w-28 relative ">
+        <div className="w-28 h-28 ">
           <Image
             src="/logo/lean-logo.png"
             alt="Leandro Soria's Logo"
             layout="fill"
             objectFit="contain"
             objectPosition="left"
-            priority="false"
+            priority
           />
         </div>
       </div>
