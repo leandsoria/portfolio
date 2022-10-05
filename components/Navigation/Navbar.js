@@ -13,6 +13,7 @@ const Navbar = () => {
             layout="fill"
             objectFit="contain"
             objectPosition="left"
+            priority="true"
           />
         </div>
       </div>
