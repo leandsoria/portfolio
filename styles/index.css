@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h5,
+  h6,
+  ul,
+  button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Francois One', sans-serif;
+  }
+
+  p,
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+  }
+  svg.fill-white circle {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 75px;
+    transition: stroke 600ms;
+  }
+
+  svg.fill-white:hover circle {
+    stroke: #16a34a;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+}
+
+@layer components {
+  h1 {
+    @apply text-8xl mb-10;
+  }
+  h2 {
+    @apply text-6xl mb-8;
+  }
+  h3 {
+    @apply text-4xl mb-6;
+  }
+  h4 {
+    @apply text-2xl mb-4;
+  }
+  p {
+    @apply text-3xl tracking-wider;
+  }
+}
