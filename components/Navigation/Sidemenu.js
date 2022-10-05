@@ -12,15 +12,18 @@ const Sidemenu = () => {
       setShowBackground('');
       setShowItems('right-[-100%] opacity-0');
     } else {
-      setShowBackground('before:scale-[100%!important]');
+      setShowBackground('scale-[100%!important]');
       setShowItems('flex right-10 opacity-100');
     }
   };
 
   return (
     <aside
-      className={`flex lg:hidden justify-end items-center w-2/3 relative overflow-x-scroll-hidden overflow-y-visible z-20 before:bg-violet-200 before:w-[150vw] before:h-[150vw] before:max-w-[600px] before:max-h-[600px] before:absolute before:right-[0%] before:translate-x-[50%] before:top-[-50%] before:translate-y-[-40%] before:rounded-full before:duration-500 before:origin-top-right before:scale-0 ${showBackground} ease-in-out`}
+      className={`flex lg:hidden justify-end items-center w-2/3 relative z-20 `}
     >
+      <div
+        className={`bg-violet-200 w-[150vw] h-[150vw] max-w-[600px] max-h-[600px] absolute right-[0%] translate-x-[50%] top-[-50%] translate-y-[-40%] rounded-full duration-300 origin-top-right scale-0 ${showBackground} ease-in-out`}
+      ></div>
       <div>
         <HamburgerIcon hamburgerState={hamburgerStateHandler} />
         <ul

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col justify-center items-center py-24"
+      className="flex flex-col justify-center items-center px-4 lg:px-0 py-14 lg:py-24"
     >
       <div className="text-center">
         <h2>Recent works and projects</h2>

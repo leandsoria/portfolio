@@ -21,7 +21,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 flex flex-col justify-center items-center text-center bg-violet-800 text-white"
+      className="py-14 lg:py-24 flex flex-col justify-center items-center text-center bg-violet-800 text-white"
     >
       <div>
         <h2>Experience</h2>

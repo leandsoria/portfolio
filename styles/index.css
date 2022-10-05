@@ -33,25 +33,25 @@
   svg.fill-white:hover circle {
     stroke: #16a34a;
   }
-  body {
-    overflow-x: hidden !important;
+  #__next {
+    overflow-x: hidden;
   }
 }
 
 @layer components {
   h1 {
-    @apply text-8xl mb-10;
+    @apply text-5xl mb-6 lg:text-8xl lg:mb-10;
   }
   h2 {
-    @apply text-6xl mb-8;
+    @apply text-4xl mb-4 lg:text-6xl lg:mb-8;
   }
   h3 {
-    @apply text-4xl mb-6;
+    @apply text-2xl mb-4  lg:text-4xl lg:mb-6;
   }
   h4 {
-    @apply text-2xl mb-4;
+    @apply text-xl mb-4 lg:text-2xl lg:mb-4;
   }
   p {
-    @apply text-3xl tracking-wider;
+    @apply text-lg lg:text-3xl tracking-wider;
   }
 }

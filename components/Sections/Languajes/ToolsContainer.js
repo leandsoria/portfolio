@@ -1,4 +1,4 @@
-import IconShadow from '../../UI/IconLang';
+import IconShadow from '../../UI/IconShadow';
 import Image from 'next/image';
 
 const ToolsContainer = () => {

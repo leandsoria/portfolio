@@ -4,7 +4,7 @@ const Connect = () => {
   return (
     <section
       id="connect"
-      className="flex flex-col justify-center items-center py-24"
+      className="flex flex-col justify-center items-center px-4 lg:px-0 py-14 lg:py-24"
     >
       <div className="text-center">
         <h2>Contact Me</h2>

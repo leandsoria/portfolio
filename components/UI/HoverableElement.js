@@ -4,7 +4,7 @@ const HoverableElement = ({ passClass, title, subtitle, content, image }) => {
   console.log(image);
   return (
     <article
-      className={`flex flex-col-reverse md:flex-row w-full  max-w-6xl items-center justify-around py-12 md:py-24 ${passClass}`}
+      className={`flex flex-col-reverse md:flex-row w-full  max-w-6xl items-center justify-around py-12 last:py-0   md:py-24 ${passClass}`}
     >
       <div className="md:basis-[45%] w-4/5 md:w-1/2 text-left">
         <header>

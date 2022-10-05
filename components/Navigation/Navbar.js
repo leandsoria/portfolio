@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="flex  flex-row w-full justify-between lg:justify-around px-[6%] py-6 ">
-      <div className="w-1/5 relative ">
+    <nav className="flex flex-row w-full justify-between lg:justify-around px-[6%] py-6">
+      <div className="w-2/3 lg:w-1/5 relative ">
         <div className="w-30 h-28 ">
           <Image
             src="/logo/lean-logo.png"
