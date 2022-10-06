@@ -6,6 +6,7 @@ const Sidemenu = () => {
   const [hamburgerActive, setHamburgerActive] = useState(false);
   const [showBackground, setShowBackground] = useState('');
   const [showItems, setShowItems] = useState('hidden');
+
   const hamburgerStateHandler = (data) => {
     setHamburgerActive(data);
     if (!hamburgerActive) {
@@ -25,7 +26,10 @@ const Sidemenu = () => {
         className={`bg-violet-200 w-[150vw] h-[150vw] max-w-[600px] max-h-[600px] absolute right-[0%] translate-x-[50%] top-[-50%] translate-y-[-40%] rounded-full duration-300 origin-top-right scale-0 ${showBackground} ease-in-out`}
       ></div>
       <div>
-        <HamburgerIcon hamburgerState={hamburgerStateHandler} />
+        <HamburgerIcon
+          hamburgerState={hamburgerStateHandler}
+          onClick={hamburgerActive}
+        />
         <ul
           className={`flex flex-col absolute top-10 duration-500 ${showItems} transition-all ease-in-out`}
         >

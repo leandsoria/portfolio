@@ -11,6 +11,7 @@ const ToolsContainer = () => {
           alt="Photoshop Icon"
           height="100"
           width="100"
+          loading="eager"
         />
       </IconShadow>
       <IconShadow>
@@ -20,6 +21,7 @@ const ToolsContainer = () => {
           alt="Figma Icon"
           height="100"
           width="100"
+          loading="eager"
         />
       </IconShadow>
       <IconShadow>
@@ -29,6 +31,7 @@ const ToolsContainer = () => {
           alt="Github Icon"
           height="100"
           width="100"
+          loading="eager"
         />
       </IconShadow>
       <IconShadow>
@@ -38,6 +41,7 @@ const ToolsContainer = () => {
           alt="Git Icon"
           height="100"
           width="100"
+          loading="eager"
         />
       </IconShadow>
     </div>

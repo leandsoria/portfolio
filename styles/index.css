@@ -10,16 +10,11 @@
   h6,
   ul,
   button {
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Righteous', cursive;
-    font-family: 'Acme', sans-serif;
     font-family: 'Francois One', sans-serif;
   }
 
   p,
   h4 {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
   }

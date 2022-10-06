@@ -11,6 +11,8 @@ const LanguageContainer = () => {
           alt="NextJs Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
       <IconShadow>
@@ -20,6 +22,8 @@ const LanguageContainer = () => {
           alt="ReactJs Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
       <IconShadow>
@@ -29,6 +33,8 @@ const LanguageContainer = () => {
           alt="Javascript Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
 
@@ -39,6 +45,8 @@ const LanguageContainer = () => {
           alt="HTML Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
       <IconShadow>
@@ -48,6 +56,8 @@ const LanguageContainer = () => {
           alt="Css Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
       <IconShadow>
@@ -57,6 +67,8 @@ const LanguageContainer = () => {
           alt="Tailwind Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
 
@@ -67,6 +79,8 @@ const LanguageContainer = () => {
           alt="Sass Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
       <IconShadow>
@@ -76,6 +90,8 @@ const LanguageContainer = () => {
           alt="MongoDB Icon"
           height="100"
           width="100"
+          loading="eager"
+          quality="40"
         />
       </IconShadow>
     </div>

@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 const HoverableElement = ({ passClass, title, subtitle, content, image }) => {
-  console.log(image);
   return (
     <article
       className={`flex flex-col-reverse md:flex-row w-full  max-w-6xl items-center justify-around py-12 last:py-0   md:py-24 ${passClass}`}
@@ -19,11 +18,12 @@ const HoverableElement = ({ passClass, title, subtitle, content, image }) => {
           src={image}
           width="125"
           height="100"
-          alt="Luxury Presence logo"
+          alt={title}
           layout="responsive"
-          quality="75"
+          quality="50"
           objectFit="cover"
           className="hover:scale-125 duration-[800ms]"
+          loading="eager"
         />
       </aside>
     </article>

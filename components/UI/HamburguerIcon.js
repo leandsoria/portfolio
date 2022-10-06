@@ -1,14 +1,13 @@
-import { useState } from 'react';
-import Sidemenu from '../Navigation/Sidemenu';
+import { useState, useEffect } from 'react';
 
-const HamburgerIcon = ({ hamburgerState }) => {
+const HamburgerIcon = ({ hamburgerState, onClick }) => {
   const [hamburgerIsActive, setHamburgerIsActive] = useState(false);
   const [hamburgerOne, setHamburgerOne] = useState('');
   const [hamburgerTwo, setHamburgerTwo] = useState('');
   const [hamburgerThree, setHamburgerThree] = useState('');
 
   const hamburgerIconHandler = () => {
-    setHamburgerIsActive((previousState) => !previousState);
+    setHamburgerIsActive(!onClick);
     if (!hamburgerIsActive) {
       setHamburgerOne('rotate-[-45deg]');
       setHamburgerTwo('scale-0');
@@ -19,7 +18,10 @@ const HamburgerIcon = ({ hamburgerState }) => {
       setHamburgerThree('');
     }
   };
-  hamburgerState(hamburgerIsActive);
+
+  useEffect(() => {
+    hamburgerState(hamburgerIsActive);
+  }, [hamburgerState, hamburgerIsActive]);
 
   return (
     <div

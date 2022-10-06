@@ -5,15 +5,14 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col justify-center items-center px-4 lg:px-0 py-14 lg:py-24"
+      className="flex flex-col justify-center items-center px-4 lg:px-8 py-14 lg:py-24"
     >
       <div className="text-center">
-        <h2>Recent works and projects</h2>
+        <h2>Recent Works and Projects</h2>
         <h4 className="mb-12">
-          Here there are some designs and projects that I&apos;ve worked
-          recently.
+          Designs and projects that I&apos;ve worked recently.
         </h4>
-        <div className="flex max-w-7xl flex-row flex-wrap gap-6 justify-center">
+        <div className="flex max-w-7xl flex-row flex-wrap gap-6 justify-center ">
           {ProjectArr.map((cards) => (
             <ProjectCard
               key={cards.title}
