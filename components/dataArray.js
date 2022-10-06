@@ -3,7 +3,7 @@ export const ProjectArr = [
     title: 'E-Commerce App \n\n (Under Construction)',
     lang: 'HTML, Tailwind and NextJs',
     img: 'project_e-commerce.png',
-    url: 'https://e-commerce-site-dom.netlify.app/',
+    url: 'https://e-commerce-project-rho.vercel.app/',
   },
   {
     title: 'NextJS App Demo',
