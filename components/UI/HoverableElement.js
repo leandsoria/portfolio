@@ -20,7 +20,7 @@ const HoverableElement = ({ passClass, title, subtitle, content, image }) => {
           height="100"
           alt={title}
           layout="responsive"
-          quality="50"
+          quality="75"
           objectFit="cover"
           className="hover:scale-125 duration-[800ms]"
           loading="eager"

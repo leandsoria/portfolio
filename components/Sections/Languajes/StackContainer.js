@@ -12,7 +12,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
       <IconShadow>
@@ -23,7 +23,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
       <IconShadow>
@@ -34,7 +34,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
 
@@ -46,7 +46,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
       <IconShadow>
@@ -57,7 +57,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
       <IconShadow>
@@ -68,7 +68,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
 
@@ -80,7 +80,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
       <IconShadow>
@@ -91,7 +91,7 @@ const LanguageContainer = () => {
           height="100"
           width="100"
           loading="eager"
-          quality="40"
+          quality="75"
         />
       </IconShadow>
     </div>
