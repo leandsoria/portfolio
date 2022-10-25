@@ -5,7 +5,7 @@ const Opening = () => {
         <h1 className="text-bold text-violet-900 ">Leandro Soria</h1>
         <h2 className="text-violet-600 ">Front-End Dev</h2>
         <p className="text-gray-600 font-semibold text-center lg:text-left">
-          Minimalistic and beautiful web pages.
+          Developing beautiful UI & websites.
         </p>
       </div>
     </section>
