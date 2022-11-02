@@ -12,7 +12,11 @@ const Connect = () => {
           If you would like to work with me or just have a chat, send me an
           email!😄
         </p>
-        <ConnectButton>Let&apos;s Connect</ConnectButton>
+        <ConnectButton>
+          <a href="mailto:lean.dsoria@gmail.com?subject=Greetings&body=I%20would%20like%20to%20know%20more%20about%20your%20services.">
+            Let&apos;s Connect
+          </a>
+        </ConnectButton>
       </div>
     </section>
   );

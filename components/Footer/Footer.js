@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="py-12 flex flex-col justify-center items-center text-center bg-violet-800 text-white">
       <div className="flex flex-row items-center">
         <IconSocial urlLink={'https://github.com/leandsoria'}>
-          <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative z-20" />
+          <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative " />
         </IconSocial>
 
         <div className="group w-24 h-24 block relative  ">
@@ -18,7 +18,7 @@ const Footer = () => {
         <IconSocial
           urlLink={'https://www.linkedin.com/in/leandro-s-528388136/'}
         >
-          <LinkedIn className="text-white fill-white group-hover:fill-violet-800 duration-500 relative z-20 " />
+          <LinkedIn className="text-white fill-white group-hover:fill-violet-800 duration-500 relative " />
         </IconSocial>
       </div>
     </footer>

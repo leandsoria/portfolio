@@ -7,13 +7,13 @@ const SocialMediaContainer = () => {
     <div>
       <div className="flex flex-row items-center">
         <IconSocial urlLink={'https://github.com/leandsoria'}>
-          <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative z-20" />
+          <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative " />
         </IconSocial>
 
         <IconSocial
           urlLink={'https://www.linkedin.com/in/leandro-s-528388136/'}
         >
-          <LinkedIn className="text-white fill-white group-hover:fill-violet-800 duration-500 relative z-20 " />
+          <LinkedIn className="text-white fill-white group-hover:fill-violet-800 duration-500 relative  " />
         </IconSocial>
       </div>
     </div>
