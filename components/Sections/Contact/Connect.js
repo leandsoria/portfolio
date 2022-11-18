@@ -1,4 +1,4 @@
-import ConnectButton from '../UI/ConnectButton';
+import ConnectButton from '../../UI/ConnectButton';
 
 const Connect = () => {
   return (

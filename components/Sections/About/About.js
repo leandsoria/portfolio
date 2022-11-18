@@ -1,10 +1,9 @@
 import SocialMediaContainer from './SocialMediaContainer';
-
 const About = () => {
   return (
     <section
       id="about"
-      className="bg-violet-800 text-white py-14 lg:py-24 pb-[456px] lg:pb-[596px] flex justify-center scroll-smooth"
+      className="bg-violet-800 text-white py-14 lg:py-24 pb-[456px] lg:pb-[596px] flex justify-center "
     >
       <div className="flex flex-col justify-center items-center text-center max-w-6xl px-4">
         <h2>About me</h2>

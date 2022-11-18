@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-const Header = (prop) => {
+const Header = () => {
   return (
     <div>
       <Head>
@@ -9,7 +9,7 @@ const Header = (prop) => {
         <meta name="description" content="Hi, welcome to my portfolio!" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://leandsoria.netlify.app/" />
+        <meta property="og:url" content="https://leandsoria.vercel.app/" />
         <meta
           property="og:title"
           content="Leandro Soria | Front-End Developer"
@@ -20,14 +20,11 @@ const Header = (prop) => {
         />
         <meta
           property="og:image"
-          content="https://leandsoria.netlify.app/experiences/freelance_front-end.jpg"
+          content="https://leandsoria.vercel.app/experiences/freelance_front-end.jpg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://leandsoria.netlify.app/"
-        />
+        <meta property="twitter:url" content="https://leandsoria.vercel.app/" />
         <meta
           property="twitter:title"
           content="Leandro Soria | Front-End Developer"
@@ -38,7 +35,7 @@ const Header = (prop) => {
         />
         <meta
           property="twitter:image"
-          content="https://leandsoria.netlify.app/experiences/freelance_front-end.jpg"
+          content="https://leandsoria.vercel.app/experiences/freelance_front-end.jpg"
         />
         <link
           rel="icon"

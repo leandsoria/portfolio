@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  #__next {
+    overflow-x: hidden;
+  }
   h1,
   h2,
   h3,
@@ -27,9 +30,6 @@
 
   svg.fill-white:hover circle {
     stroke: #16a34a;
-  }
-  #__next {
-    overflow-x: hidden;
   }
 }
 

@@ -60,3 +60,85 @@ export const ProjectArr = [
     url: 'https://bookingsweb-desing.netlify.app/',
   },
 ];
+
+export const stackArr = [
+  {
+    language: 'NextJs',
+    imageUrl: '/icons/languages/nextjs_icon.png',
+    alt: 'NextJs Icon',
+  },
+  {
+    language: 'ReactJs',
+    imageUrl: '/icons/languages/react_icon.png',
+    alt: 'ReactJs Icon',
+  },
+
+  {
+    language: 'Javascript',
+    imageUrl: '/icons/languages/javascript_icon.png',
+    alt: 'Javascript Icon',
+  },
+  {
+    language: 'HTML',
+    imageUrl: '/icons/languages/html_icon.png',
+    alt: 'HTML Icon',
+  },
+  {
+    language: 'CSS',
+    imageUrl: '/icons/languages/css_icon.png',
+    alt: 'Css Icon',
+  },
+  {
+    language: 'Tailwind',
+    imageUrl: '/icons/languages/tailwind_icon.png',
+    alt: 'Tailwind Icon',
+  },
+  {
+    language: 'Sass',
+    imageUrl: '/icons/languages/sass_icon.png',
+    alt: 'Sass Icon',
+  },
+  {
+    language: 'NodeJs',
+    imageUrl: '/icons/languages/node_icon.png',
+    alt: 'NodeJs Icon',
+  },
+  {
+    language: 'ExpressJs',
+    imageUrl: '/icons/languages/express_js_icon.png',
+    alt: 'ExpressJs Icon',
+  },
+  {
+    language: 'MongoDB',
+    imageUrl: '/icons/languages/mongodb_icon.png',
+    alt: 'MongoDB Icon',
+  },
+];
+
+export const toolsArr = [
+  {
+    tool: 'Photoshop',
+    imageUrl: '/icons/languages/photoshop_icon.png',
+    alt: 'Photoshop Icon',
+  },
+  {
+    tool: 'Figma',
+    imageUrl: '/icons/languages/figma_icon.png',
+    alt: 'Figma Icon',
+  },
+  {
+    tool: 'Github',
+    imageUrl: '/icons/languages/github_icon.png',
+    alt: 'Github Icon',
+  },
+  {
+    tool: 'Git',
+    imageUrl: '/icons/languages/git_icon.png',
+    alt: 'Git Icon',
+  },
+  {
+    tool: 'Postman',
+    imageUrl: '/icons/languages/postman_icon.png',
+    alt: 'Postman Icon',
+  },
+];

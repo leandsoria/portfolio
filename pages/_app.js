@@ -1,6 +1,7 @@
 import '../styles/index.css';
 import Layout from '../components/Layout/Layout';
 import { useEffect } from 'react';
+import Home from '.';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

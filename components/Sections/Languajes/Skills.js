@@ -10,6 +10,7 @@ const Skills = () => {
           I like to code from scratch, and enjoy bringing ideas to life.
         </h4>
         <h3>Stack</h3>
+
         <StackContainer />
         <h3>Tools</h3>
         <ToolsContainer />
