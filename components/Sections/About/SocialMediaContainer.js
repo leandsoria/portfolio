@@ -10,9 +10,7 @@ const SocialMediaContainer = () => {
           <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative " />
         </IconSocial>
 
-        <IconSocial
-          urlLink={'https://www.linkedin.com/in/leandro-s-528388136/'}
-        >
+        <IconSocial urlLink={'https://www.linkedin.com/in/leandro-d-soria/'}>
           <LinkedIn className="text-white fill-white group-hover:fill-violet-800 duration-500 relative  " />
         </IconSocial>
       </div>
