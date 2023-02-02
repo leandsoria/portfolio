@@ -1,13 +1,36 @@
 import { Fragment } from 'react';
 import Opening from '../components/Sections/Opening/Opening';
 import About from '../components/Sections/About/About';
-import Experience from '../components/Sections/Experience';
-import Skills from '../components/Sections/Languajes/Skills';
-import Projects from '../components/Sections/Projects';
-import Connect from '../components/Sections/Contact/Connect';
+
 import Header from '../components/SEO/Header';
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Flip';
+import dynamic from 'next/dynamic';
+
+const Experience = dynamic(() => import('../components/Sections/Experience'), {
+  loading: () => 'Loading...',
+  ssr: false,
+});
+
+const Skills = dynamic(
+  () => import('../components/Sections/Languajes/Skills'),
+  {
+    loading: () => 'Loading...',
+    ssr: false,
+  }
+);
+
+const Projects = dynamic(() => import('../components/Sections/Projects'), {
+  loading: () => 'Loading...',
+  ssr: false,
+});
+
+const Connect = dynamic(
+  () => import('../components/Sections/Contact/Connect'),
+  {
+    loading: () => 'Loading...',
+    ssr: false,
+  }
+);
 
 const Home = () => {
   return (
