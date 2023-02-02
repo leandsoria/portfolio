@@ -1,5 +1,5 @@
 import HoverableElement from '../UI/HoverableElement';
-
+import Fade from 'react-reveal/Fade';
 const experienceArr = [
   {
     passClass: 'md:pb-0',

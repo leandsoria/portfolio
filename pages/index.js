@@ -6,6 +6,8 @@ import Skills from '../components/Sections/Languajes/Skills';
 import Projects from '../components/Sections/Projects';
 import Connect from '../components/Sections/Contact/Connect';
 import Header from '../components/SEO/Header';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Flip';
 
 const Home = () => {
   return (
@@ -13,9 +15,13 @@ const Home = () => {
       <Header />
       <Opening />
       <About />
-      <Skills />
+      <Fade bottom>
+        <Skills />
+      </Fade>
       <Projects />
-      <Experience />
+      <Fade bottom>
+        <Experience />
+      </Fade>
       <Connect />
     </Fragment>
   );
