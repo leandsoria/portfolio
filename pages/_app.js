@@ -1,7 +1,7 @@
 import '../styles/index.css';
 import Layout from '../components/Layout/Layout';
 import { useEffect } from 'react';
-import Home from '.';
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }
