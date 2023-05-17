@@ -14,7 +14,7 @@ export const ProjectArr = [
   {
     title: 'E-Commerce App \n\n (Under Construction)',
     lang: 'HTML, Tailwind and NextJs',
-    img: 'project_e-commerce.png',
+    img: 'project_e-commerce.jpg',
     url: 'https://e-commerce-project-rho.vercel.app/',
   },
   {
