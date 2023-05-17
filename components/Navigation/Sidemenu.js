@@ -5,6 +5,8 @@ import Backdrop from '../UI/Backdrop';
 import SidemenuCircleBg from '../UI/SidemenuCircleBg';
 import SidemenuList from './SidemenuList';
 
+import SidemenuSocialIcons from './Sidemenu/SidemenuSocialIcons';
+
 const Sidemenu = ({ scrolled }) => {
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
@@ -38,6 +40,7 @@ const Sidemenu = ({ scrolled }) => {
             <NavbarItem onClick={sidemenuHandler} urlLink="#connect">
               Let&apos;s Connect!
             </NavbarItem>
+            <SidemenuSocialIcons />
           </SidemenuList>
         </div>
       </aside>
