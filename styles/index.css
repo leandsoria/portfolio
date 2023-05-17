@@ -56,3 +56,23 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* ANIMATIONS */
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  99% {
+    background-position: 10000% 0;
+  }
+}
+
+@keyframes animatedBrightness {
+  from {
+    filter: brightness(1.2);
+  }
+  to {
+    filter: brightness(0.6);
+  }
+}

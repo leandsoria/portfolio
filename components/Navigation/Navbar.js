@@ -1,12 +1,5 @@
-import Github from '../../public/icons/svg/github_social_icon.svg';
-import LinkedIn from '../../public/icons/svg/linkedin_social_icon.svg';
-import NavbarItem from './NavbarItems';
 import Sidemenu from './Sidemenu';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { GITHUB_URL, LINKEDIN_URL } from '../data';
-import Link from 'next/link';
-import ConnectNavButton from '../UI/ConnectNavButton';
 import { NavbarLeft } from './Navbar/NavbarLeft';
 import NavbarRight from './Navbar/NavbarRight';
 
