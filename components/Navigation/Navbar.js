@@ -5,6 +5,7 @@ import NavbarItem from './NavbarItems';
 import Sidemenu from './Sidemenu';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { GITHUB_URL, LINKEDIN_URL } from '../data';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
         isScrolled ? 'py-2 bg-gray-100' : 'py-6'
       } transition-all duration-300`}
     >
-      <div className="w-2/3 lg:w-36 relative ">
+      <div className="w-2/3 lg:w-32 relative ">
         <div className={`w-28 h-28 `}>
           <Image
             src="/logo/lean-logo_dark.png"
@@ -49,14 +50,12 @@ const Navbar = () => {
           <NavbarItem urlLink="#experience">Experience</NavbarItem>
           <NavbarItem urlLink="#connect">Let&apos;s Connect!</NavbarItem>
           <li>
-            <IconSocial urlLink={'https://github.com/leandsoria'}>
+            <IconSocial urlLink={GITHUB_URL}>
               <Github className="text-white fill-violet-800 group-hover:fill-violet-400 duration-500 relative " />
             </IconSocial>
           </li>
           <li>
-            <IconSocial
-              urlLink={'https://www.linkedin.com/in/leandro-s-528388136/'}
-            >
+            <IconSocial urlLink={LINKEDIN_URL}>
               <LinkedIn className="text-white fill-violet-800 group-hover:fill-violet-400 duration-500 relative  " />
             </IconSocial>
           </li>
