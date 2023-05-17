@@ -9,6 +9,8 @@ module.exports = {
       backgroundImage: {
         opening:
           'linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.3)),url(/backgrounds/openingbackground-minimized.jpg)',
+        skills:
+          'linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.3)),url(/backgrounds/skills-background.jpg)',
       },
       backgroundPosition: {
         zero: '50% 50%',

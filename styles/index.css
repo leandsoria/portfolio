@@ -43,7 +43,7 @@
     @apply text-2xl mb-4 sm:text-4xl sm:mb-4 lg:text-6xl lg:mb-8;
   }
   h3 {
-    @apply text-xl mb-4 sm:text-2xl sm:mb-4  lg:text-4xl lg:mb-6;
+    @apply text-2xl mb-4 sm:text-2xl sm:mb-4  lg:text-[40px] lg:mb-6;
   }
   h4 {
     @apply text-lg mb-4 sm:text-xl sm:mb-4 lg:text-2xl lg:mb-4;
@@ -53,6 +53,12 @@
   }
   .gradient-violet-fuchsia {
     @apply bg-gradient-to-r from-violet-900 to-fuchsia-900;
+  }
+  .gradient-violet-violet {
+    @apply bg-gradient-to-t from-violet-600 to-violet-900;
+  }
+  .gradient-green-green {
+    @apply bg-gradient-to-t from-green-600 to-green-900;
   }
 }
 
@@ -64,8 +70,8 @@ html {
 section {
   scroll-margin-top: 75px;
 }
-/* ANIMATIONS */
 
+/* ANIMATIONS */
 @keyframes animatedBackground {
   0% {
     background-position: 0 0;

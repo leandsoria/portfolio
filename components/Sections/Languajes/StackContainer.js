@@ -4,7 +4,7 @@ import { stackArr } from '../../dataArray';
 
 const LanguageContainer = () => {
   return (
-    <div className="flex justify-center mb-10 flex-wrap gap-8">
+    <div className="flex justify-center mb-10 flex-wrap gap-8 w-full">
       {stackArr.map((data) => (
         <IconShadow key={data.language}>
           <h5 className="pb-4">{data.language}</h5>
