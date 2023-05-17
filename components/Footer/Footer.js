@@ -8,7 +8,7 @@ import { GITHUB_URL, LINKEDIN_URL } from '../data';
 
 const Footer = () => {
   return (
-    <footer className="py-12 flex flex-col justify-center items-center text-center bg-violet-800 text-white">
+    <footer className="py-12 flex flex-col justify-center items-center text-center bg-violet-800 text-white gradient-green-green">
       <div className="flex flex-row items-center">
         <IconSocial urlLink={GITHUB_URL}>
           <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative " />

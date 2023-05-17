@@ -15,8 +15,8 @@ const Home = () => {
       <About />
       <Skills />
       <Projects />
-      <Experience />
       <Connect />
+      <Experience />
     </Fragment>
   );
 };

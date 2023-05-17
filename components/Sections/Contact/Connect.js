@@ -4,9 +4,9 @@ const Connect = () => {
   return (
     <section
       id="connect"
-      className="flex flex-col justify-center items-center px-4 lg:px-0 py-14 lg:py-24"
+      className="flex flex-col justify-center items-center px-4 lg:px-0 py-14 lg:py-24 bg-contact bg-zero bg-fixed"
     >
-      <div className="text-center">
+      <div className="text-center text-white">
         <h2>Contact Me</h2>
         <p className="mb-12 text-xl">
           If you would like to work with me or just have a chat, send me an

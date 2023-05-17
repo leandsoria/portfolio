@@ -58,7 +58,7 @@
     @apply bg-gradient-to-t from-violet-600 to-violet-900;
   }
   .gradient-green-green {
-    @apply bg-gradient-to-t from-green-600 to-green-900;
+    @apply bg-gradient-to-br from-violet-900 to-fuchsia-900;
   }
 }
 
