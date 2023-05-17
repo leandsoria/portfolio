@@ -15,11 +15,8 @@ const NavbarRight = ({ scrolled }) => {
             className="group"
           >
             <Github
-              className={`${
-                scrolled
-                  ? ' text-violet-800 fill-white group-hover:fill-violet-400'
-                  : 'text-white fill-violet-800 group-hover:fill-violet-400'
-              } duration-500 relative h-10 w-10`}
+              className={` text-violet-800 fill-white group-hover:fill-violet-400
+                   duration-500 relative h-10 w-10`}
             />
           </a>
         </li>
@@ -31,16 +28,13 @@ const NavbarRight = ({ scrolled }) => {
             className="group "
           >
             <LinkedIn
-              className={`${
-                scrolled
-                  ? ' text-violet-800 fill-white group-hover:fill-violet-400'
-                  : 'text-white fill-violet-800 group-hover:fill-violet-400'
-              } duration-500 relative h-10 w-10`}
+              className={` text-violet-800 fill-white group-hover:fill-violet-400
+              duration-500 relative h-10 w-10`}
             />
           </a>
         </li>
 
-        <ConnectNavButton urlLink="#connect" scrolled={scrolled}>
+        <ConnectNavButton urlLink="#connect">
           Let&apos;s Connect!
         </ConnectNavButton>
       </ul>

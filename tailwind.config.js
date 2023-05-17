@@ -8,14 +8,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         opening:
-          'linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.3)),url(/backgrounds/opening-background.jpg)',
+          'linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.3)),url(/backgrounds/openingbackground-minimized.jpg)',
       },
       backgroundPosition: {
         zero: '50% 50%',
       },
       animation: {
         backgroundAnimation:
-          'animatedBackground 12000s linear infinite alternate',
+          'animatedBackground 18000s linear infinite alternate',
         brightness: 'animatedBrightness 3s linear infinite alternate',
       },
     },

@@ -12,7 +12,7 @@ export const NavbarLeft = ({ scrolled }) => {
               src={`${
                 scrolled
                   ? '/logo/lean-logo_light.png'
-                  : '/logo/lean-logo_dark.png'
+                  : '/logo/lean-logo_light.png'
               }`}
               alt="Leandro Soria's Logo"
               layout="fill"

@@ -1,13 +1,9 @@
 import { PERSONAL_EMAIL } from '../data';
 
-function ConnectNavButton({ onClick, urlLink, children, scrolled }) {
+function ConnectNavButton({ onClick, children, scrolled }) {
   return (
     <li
-      className={`connect-button uppercase font-semibold  text-xl text-center leading-none w-full h-full ease-in-out duration-500  relative before:w-0 hover:before:w-full before:block before:absolute before:z-[-10] before:h-full before:transition-all before:ease-in-out before:duration-500 rounded-2xl overflow-hidden min-w-max ${
-        scrolled
-          ? 'text-white hover:text-violet-900 before:bg-white border-2 border-white'
-          : 'text-violet-900 hover:text-white before:bg-violet-900 border-2 border-violet-900'
-      } transition-all `}
+      className={`uppercase font-semibold  text-xl text-center leading-none w-full h-full ease-in-out duration-500  relative before:w-0 hover:before:w-full before:block before:absolute before:z-[-10] before:h-full before:transition-all before:ease-in-out before:duration-500 rounded-2xl overflow-hidden min-w-max text-white hover:text-violet-900 before:bg-white border-2 border-white' transition-all `}
       onClick={onClick}
     >
       <a

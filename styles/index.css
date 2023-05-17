@@ -71,8 +71,10 @@ html {
 @keyframes animatedBrightness {
   from {
     filter: brightness(1.2);
+    transform: scale(1.05);
   }
   to {
-    filter: brightness(0.6);
+    filter: brightness(0.55);
+    transform: scale(0.99);
   }
 }

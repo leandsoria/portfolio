@@ -27,7 +27,6 @@ const Navbar = () => {
       } transition-all duration-300`}
     >
       <NavbarLeft scrolled={isScrolled} />
-
       <NavbarRight scrolled={isScrolled} />
       <Sidemenu scrolled={isScrolled} />
     </nav>
