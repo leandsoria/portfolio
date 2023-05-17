@@ -7,7 +7,7 @@ const SidemenuSocialIcons = () => {
     <ul className="flex flex-row justify-center">
       <li className="px-4">
         <a href={GITHUB_URL} target="_blank" rel="noreferrer" className="group">
-          <Github className="text-white fill-violet-800 group-hover:fill-violet-400 duration-500 relative h-10 w-10" />
+          <Github className="text-white fill-white group-hover:fill-violet-400 duration-500 relative h-10 w-10" />
         </a>
       </li>
       <li className="px-4">
@@ -17,7 +17,7 @@ const SidemenuSocialIcons = () => {
           rel="noreferrer"
           className="group "
         >
-          <LinkedIn className="text-white fill-violet-800 group-hover:fill-violet-400 duration-500 relative h-10 w-10" />
+          <LinkedIn className="text-white fill-white group-hover:fill-violet-400 duration-500 relative h-10 w-10" />
         </a>
       </li>
     </ul>

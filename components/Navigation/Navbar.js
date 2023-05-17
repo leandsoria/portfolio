@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav
       className={`flex flex-row w-full justify-between lg:justify-around px-[6%] z-[900] fixed ${
-        isScrolled ? 'py-2 bg-violet-900' : 'py-6'
+        isScrolled ? 'py-2 gradient-violet-fuchsia' : 'py-6'
       } transition-all duration-300`}
     >
       <NavbarLeft scrolled={isScrolled} />

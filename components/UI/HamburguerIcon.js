@@ -7,19 +7,19 @@ const HamburgerIcon = ({ hamburgerState, onClick, scrolled }) => {
       onClick={onClick}
     >
       <span
-        className={`block h-[4px] w-full rounded-[10px]  translate-y-[-6px] ease-in-out duration-300 origin-top-right  ${
+        className={`block h-[4px] w-full rounded-[10px]  translate-y-[-6px] ease-in-out duration-300 origin-top-right bg-white ${
           hamburgerState ? 'rotate-[-45deg]' : ''
-        } ${scrolled && !hamburgerState ? 'bg-white' : 'bg-violet-800'}`}
+        } `}
       ></span>
       <span
-        className={`block h-[4px] w-full rounded-[10px] bg-violet-800 translate-y-0 ease-in-out duration-200 origin-center ${
+        className={`block h-[4px] w-full rounded-[10px]  translate-y-0 ease-in-out duration-200 origin-center bg-white ${
           hamburgerState ? 'scale-0' : ''
-        }  ${scrolled ? 'bg-white' : 'bg-violet-800'}`}
+        }  `}
       ></span>
       <span
-        className={`block h-[4px] w-full rounded-[10px] bg-violet-800 translate-y-[6px] ease-in-out duration-300 origin-bottom-right  ${
+        className={`block h-[4px] w-full rounded-[10px]  translate-y-[6px] ease-in-out duration-300 origin-bottom-right bg-white ${
           hamburgerState ? 'rotate-45' : ''
-        }  ${scrolled && !hamburgerState ? 'bg-white' : 'bg-violet-800'}`}
+        } `}
       ></span>
     </button>
   );
