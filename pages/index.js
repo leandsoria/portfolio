@@ -16,7 +16,7 @@ const Home = () => {
       <Skills />
       <Projects />
       <Connect />
-      <Experience />
+      {/* <Experience /> */}
     </Fragment>
   );
 };

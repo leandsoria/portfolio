@@ -11,8 +11,8 @@ const ToolsContainer = () => {
           <Image
             src={data.imageUrl}
             alt={data.alt}
-            height="100"
-            width="100"
+            height="75"
+            width="75"
             loading="eager"
           />
         </IconShadow>

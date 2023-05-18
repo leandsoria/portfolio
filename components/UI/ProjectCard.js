@@ -2,11 +2,18 @@ import Image from 'next/image';
 
 const ProjectCard = ({ title, lang, img, url }) => {
   return (
+    // <a
+    //   href={url}
+    //   target="_blank"
+    //   rel="noreferrer"
+    //   className="group w-1/3 relative rounded-xl overflow-hidden shadow-lg "
+    // >
     <a
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="group basis-[100%] mx-8 md:mx-0 md:[flex-basis:calc(33.333%_-_1.5rem)] relative rounded-xl before:bg-green-500 before:w-full before:h-full before:scale-0 hover:before:scale-100 before:duration-300 before:absolute before:z-10 before:block before:opacity-0 hover:before:opacity-100 before:duration-400 before:origin-center overflow-hidden shadow-lg min-h-[250px] lg:min-h-[225px]"
+      className="group basis-[100%] mx-8 md:mx-0 md:[flex-basis:calc(33.333%_-_1.5rem)] relative rounded-xl before:bg-green-500 before:w-full before:h-full before:scale-0 hover:before:scale-100 before:duration-500 before:absolute before:z-10 before:block before:opacity-0 hover:before:opacity-100 
+       before:origin-center overflow-hidden shadow-lg min-h-[250px] lg:min-h-[225px]"
     >
       <Image
         src={`/projects/${img}`}

@@ -72,6 +72,26 @@ export const ProjectArr = [
     url: 'https://bookingsweb-desing.netlify.app/',
   },
 ];
+export const clientSitesArr = [
+  {
+    title: 'Fuller Group',
+    lang: '',
+    img: 'clients/fuller-group.jpg',
+    url: 'https://thefullerproperties.com/',
+  },
+  {
+    title: 'David Thayer',
+    lang: '',
+    img: 'clients/david-thayer.jpg',
+    url: 'https://thayercoastalhomes.com/',
+  },
+  {
+    title: 'Patricia Isen',
+    lang: '',
+    img: 'clients/patricia-isen.jpg',
+    url: 'https://patriciagreeneisen.com/',
+  },
+];
 
 export const stackArr = [
   {
