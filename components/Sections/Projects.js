@@ -43,7 +43,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center items-center px-4 lg:px-8 py-14 lg:py-24 gradient-violet-fuchsia text-white "
     >
-      <div className="flex flex-col justify-center text-center w-full">
+      <div className="flex flex-col justify-center items-center text-center w-full">
         <h2>Recent Works and Projects</h2>
         <h4 className="mb-8">
           Designs and projects that I&apos;ve worked recently.
@@ -72,7 +72,7 @@ const Projects = () => {
           </button>
         </div>
 
-        <div className="flex flex-row flex-wrap justify-center pb-12 gap-6 max-w-7xl m-auto">
+        <div className="flex flex-row flex-wrap justify-center pb-12 gap-6 w-full max-w-7xl ">
           {newArr.map((cards) => (
             <ProjectCard
               key={Math.random()}
