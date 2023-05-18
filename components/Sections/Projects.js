@@ -72,8 +72,7 @@ const Projects = () => {
           </button>
         </div>
 
-        {/* <div className="flex max-w-7xl flex-row flex-wrap gap-6 justify-center pb-12"> */}
-        <div className="flex flex-row flex-wrap justify-center pb-12 gap-6">
+        <div className="flex flex-row flex-wrap justify-center pb-12 gap-6 max-w-7xl m-auto">
           {newArr.map((cards) => (
             <ProjectCard
               key={Math.random()}
