@@ -16,7 +16,7 @@ const About = () => {
         <p className="mb-4">
           As a Front-End Developer, my work revolves around creating captivating
           user interfaces and immersive web experiences. With a strong command
-          of React, Next.js, Tailwind CSS, CSS, and Bootstrap, I bring a diverse
+          of React, Next.js, Tailwind, CSS, and Bootstrap, I bring a diverse
           skill set to the table.
         </p>
         <p className="mb-8">
