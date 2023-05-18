@@ -40,7 +40,7 @@
     @apply text-4xl mb-4 sm:text-6xl sm:mb-6 lg:text-7xl lg:mb-8;
   }
   h2 {
-    @apply text-2xl mb-4 sm:text-4xl sm:mb-4 lg:text-6xl lg:mb-8;
+    @apply text-2xl mb-4 sm:text-4xl sm:mb-4 lg:text-6xl lg:mb-8 uppercase;
   }
   h3 {
     @apply text-2xl mb-4 sm:text-2xl sm:mb-4  lg:text-[40px] lg:mb-6;
@@ -83,11 +83,11 @@ section {
 
 @keyframes animatedBrightness {
   from {
-    filter: brightness(1.2);
+    filter: brightness(1.4);
     transform: scale(1.05);
   }
   to {
-    filter: brightness(0.55);
+    filter: brightness(0.75);
     transform: scale(0.99);
   }
 }
