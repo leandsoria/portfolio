@@ -35,8 +35,8 @@ export const NavbarLeft = ({ scrolled }) => {
         <NavbarItem urlLink="#projects" scrolled={scrolled}>
           Projects
         </NavbarItem>
-        <NavbarItem urlLink="#experience" scrolled={scrolled}>
-          Experience
+        <NavbarItem urlLink="#skills" scrolled={scrolled}>
+          Skills
         </NavbarItem>
       </ul>
     </motion.div>

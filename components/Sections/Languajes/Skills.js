@@ -3,7 +3,10 @@ import ToolsContainer from './ToolsContainer.js';
 
 const Skills = () => {
   return (
-    <section className="flex flex-col justify-center items-center text-center py-24 relative gap-6">
+    <section
+      className="flex flex-col justify-center items-center text-center py-24 relative gap-6"
+      id="skills"
+    >
       <div className="absolute bg-skills bg-zero bg-fixed w-full h-full top-0 blur-[1px]"></div>
       <div className="flex flex-col  lg:px-12 mx-4 justify-center items-center text-center max-w-7xl lg:mx-auto text-white z-10 ">
         <h2>Skills</h2>
