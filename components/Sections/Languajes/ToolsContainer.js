@@ -1,7 +1,6 @@
 import IconShadow from '../../UI/IconShadow';
 import Image from 'next/image';
 import { toolsArr } from '../../dataArray';
-import Zoom from 'react-reveal/Zoom';
 
 const ToolsContainer = () => {
   return (
