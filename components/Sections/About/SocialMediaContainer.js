@@ -11,11 +11,7 @@ const SocialMediaContainer = () => {
           <Github className="text-white fill-white group-hover:fill-violet-800 duration-500 relative " />
         </IconSocial>
 
-<<<<<<< HEAD
-        <IconSocial urlLink={'https://www.linkedin.com/in/leandro-d-soria/'}>
-=======
         <IconSocial urlLink={LINKEDIN_URL}>
->>>>>>> update.1.0
           <LinkedIn className="text-white fill-white group-hover:fill-violet-800 duration-500 relative  " />
         </IconSocial>
       </div>

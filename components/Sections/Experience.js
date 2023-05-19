@@ -1,10 +1,6 @@
 import HoverableElement from '../UI/HoverableElement';
-<<<<<<< HEAD
-import Fade from 'react-reveal/Fade';
-=======
 import ImageWithInfoFullbleed from '../UI/ImageWithInfoFullbleed';
 
->>>>>>> update.1.0
 const experienceArr = [
   {
     passClass: 'md:pb-0',

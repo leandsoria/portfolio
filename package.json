@@ -9,24 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@emotion/react": "^11.10.5",
-    "@vercel/analytics": "^0.1.8",
-=======
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.1",
     "framer-motion": "^10.12.12",
->>>>>>> update.1.0
     "next": "12.3.1",
     "react": "18.2.0",
     "react-awesome-reveal": "^4.1.0",
     "react-dom": "18.2.0",
-<<<<<<< HEAD
-    "react-reveal": "^1.2.2"
-=======
     "swiper": "^9.3.2"
->>>>>>> update.1.0
   },
   "devDependencies": {
     "@svgr/webpack": "^6.4.0",
