@@ -1,7 +1,6 @@
 import { easeInOut, motion } from 'framer-motion';
 
 import SocialMediaContainer from './SocialMediaContainer';
-import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
