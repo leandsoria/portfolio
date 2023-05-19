@@ -52,23 +52,23 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row max-w-md m-auto gap-4 mb-8">
           <button
             onClick={projectBtnHandler}
-            className={`py-2 px-4 uppercase font-semibold text-xl text-center leading-none w-full h-full ease-in-out duration-500 relative z-[10] before:w-0 hover:before:w-full before:block before:absolute before:top-0 before:left-0 before:z-[-1] before:h-full before:transition-all before:ease-in-out before:duration-500 rounded-3xl overflow-hidden min-w-max text-white hover:text-violet-900 before:bg-white border-2 border-white' transition-all  ${
+            className={`py-2 px-4 uppercase font-semibold text-xl text-center leading-none w-full h-full ease-in-out duration-500 relative z-[10]  hover:before:w-full before:block before:absolute before:top-0 before:left-0 before:z-[-1] before:h-full before:transition-all before:ease-in-out before:duration-500 rounded-3xl overflow-hidden min-w-max text-white hover:text-violet-900 before:bg-white border-2 border-white' transition-all  ${
               typeSelected === ProjectArr
-                ? 'opacity-75 pointer-events-none'
-                : ''
+                ? 'opacity-75 before:w-full text-violet-900 pointer-events-none'
+                : 'before:w-0'
             }`}
           >
             Personal Projects
           </button>
           <button
             onClick={clientBtnHandler}
-            className={`py-2 px-4 uppercase font-semibold text-xl text-center leading-none w-full h-full ease-in-out duration-500 relative z-[10] before:w-0 hover:before:w-full before:block before:absolute before:top-0 before:left-0 before:z-[-1] before:h-full before:transition-all before:ease-in-out before:duration-500 rounded-3xl overflow-hidden min-w-max text-white hover:text-violet-900 before:bg-white border-2 border-white' transition-all   ${
+            className={`py-2 px-4 uppercase font-semibold text-xl text-center leading-none w-full h-full ease-in-out duration-500 relative z-[10] before:w-0 hover:before:w-full before:block before:absolute before:top-0 before:left-0 before:z-[-1] before:h-full before:transition-all before:ease-in-out before:duration-500 rounded-3xl overflow-hidden min-w-max text-white hover:text-violet-900 before:bg-white border-2 border-white' transition-all ${
               typeSelected === clientSitesArr
-                ? 'opacity-75 pointer-events-none'
+                ? 'opacity-75 before:w-full text-violet-900 pointer-events-none'
                 : ''
             }`}
           >
-            Client&apos;s sites
+            Launched Projects
           </button>
         </div>
 
