@@ -1,10 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import NavbarItem from '../NavbarItems';
-
+import { easeInOut, motion } from 'framer-motion';
 export const NavbarLeft = ({ scrolled }) => {
   return (
-    <div className="flex justify-start items-center w-2/3 gap-4	 ">
+    <motion.div
+      className="flex justify-start items-center w-2/3 gap-4"
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ ease: easeInOut, duration: 0.9 }}
+    >
       <Link href={'/'}>
         <div className="w-32 lg:w-48 relative cursor-pointer ">
           <div className={`w-16 h-16 `}>
@@ -34,6 +39,6 @@ export const NavbarLeft = ({ scrolled }) => {
           Experience
         </NavbarItem>
       </ul>
-    </div>
+    </motion.div>
   );
 };

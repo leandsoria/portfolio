@@ -2,10 +2,16 @@ import Github from '../../../public/icons/svg/github_social_icon.svg';
 import LinkedIn from '../../../public/icons/svg/linkedin_social_icon.svg';
 import ConnectNavButton from '../../UI/ConnectNavButton';
 import { GITHUB_URL, LINKEDIN_URL } from '../../data';
+import { easeInOut, motion } from 'framer-motion';
 
 const NavbarRight = ({ scrolled }) => {
   return (
-    <div className={`hidden lg:flex justify-end items-center w-2/3`}>
+    <motion.div
+      className={`hidden lg:flex justify-end items-center w-2/3`}
+      initial={{ opacity: 0, x: 300 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ ease: easeInOut, duration: 1.1 }}
+    >
       <ul className="flex justify-center items-center">
         <li className="px-4">
           <a
@@ -38,7 +44,7 @@ const NavbarRight = ({ scrolled }) => {
           Let&apos;s Connect!
         </ConnectNavButton>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

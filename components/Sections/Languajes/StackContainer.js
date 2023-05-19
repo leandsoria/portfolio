@@ -1,6 +1,7 @@
 import IconShadow from '../../UI/IconShadow';
 import Image from 'next/image';
 import { stackArr } from '../../dataArray';
+import { motion } from 'framer-motion';
 
 const LanguageContainer = () => {
   return (
