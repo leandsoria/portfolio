@@ -3,7 +3,6 @@ import Opening from '../components/Sections/Opening/Opening';
 import About from '../components/Sections/About/About';
 
 import Header from '../components/SEO/Header';
-import Fade from 'react-reveal/Fade';
 import dynamic from 'next/dynamic';
 
 const Experience = dynamic(() => import('../components/Sections/Experience'), {
@@ -38,9 +37,7 @@ const Home = () => {
       <Header />
       <Opening />
       <About />
-      <Fade bottom>
-        <Skills />
-      </Fade>
+      <Skills />
       <Projects />
       <Connect />
       {/* <Experience /> */}
