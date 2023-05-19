@@ -1,8 +1,8 @@
-const Backdrop = (props) => {
+const Backdrop = ({ onClick }) => {
   return (
     <div
-      className="fixed w-screen h-screen bg-black opacity-30 left-0 top-0 z-20"
-      onClick={props.onClick}
+      className="backdrop fixed block w-screen h-screen bg-[rgba(0,0,0,.45)] left-0 top-0 z-20 backdrop-blur-sm"
+      onClick={onClick}
     ></div>
   );
 };

@@ -42,10 +42,14 @@ const Home = () => {
         <Skills />
       </Fade>
       <Projects />
+<<<<<<< HEAD
       <Fade bottom>
         <Experience />
       </Fade>
+=======
+>>>>>>> update.1.0
       <Connect />
+      {/* <Experience /> */}
     </Fragment>
   );
 };

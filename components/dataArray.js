@@ -1,4 +1,5 @@
 export const ProjectArr = [
+<<<<<<< HEAD
   // {
   //   title: 'E-Commerce App \n\n (Under Construction)',
   //   lang: 'HTML, Tailwind and NextJs',
@@ -10,60 +11,99 @@ export const ProjectArr = [
     lang: 'NextJS, Typescript and Tailwind',
     img: 'project_booking-app.png',
     url: 'https://booking-app-nu-ashy.vercel.app/',
+=======
+  {
+    title: 'Financial Dashboard',
+    lang: 'React, TypeScript, Material UI',
+    img: 'finanseer_dashboard.jpg',
+    url: 'https://mern-financial-dashboard.vercel.app/',
+  },
+  {
+    title: 'Booking APP',
+    lang: 'NextJs, React, Tailwind',
+    img: 'booking_app.jpg',
+    url: 'https://booking-app-nu-ashy.vercel.app/',
+  },
+  {
+    title: 'E-Commerce App \n\n (Under Construction)',
+    lang: 'HTML, Tailwind and NextJs',
+    img: 'project_e-commerce.jpg',
+    url: 'https://e-commerce-project-rho.vercel.app/',
+>>>>>>> update.1.0
   },
   {
     title: 'NextJS App Demo',
-    lang: 'HTML, CSS, NextJs',
-    img: 'project_nextjs-demo.png',
+    lang: 'NextJs, ReactJS, CSS, HTML ',
+    img: 'project_nextjs-demo.jpg',
     url: 'https://nextjs-demo-ochre-ten.vercel.app/',
   },
   {
     title: 'Card Form Validation',
-    lang: 'HTML, CSS, ReactJs',
-    img: 'component_card_form-validation.png',
+    lang: 'ReactJS, CSS',
+    img: 'component_card_form-validation.jpg',
     url: 'https://interactive-card-details-evv05f53o-leandsoria.vercel.app/',
   },
   {
     title: "Alberto Rivero's Neurologic Clinic",
-    lang: 'HTML, CSS, SCSS, JS',
-    img: 'web_alberto-rivero-low.png',
+    lang: 'JavaScript, CSS, HTML',
+    img: 'web_alberto-rivero-low.jpg',
     url: 'https://albertorivero.netlify.app/',
   },
   {
     title: 'Mapty App',
-    lang: 'HTML, CSS, SCSS, JS',
+    lang: 'JavaScript, CSS, HTML',
     img: 'project_mapty-app-low.jpg',
     url: 'https://mapty-app-interface.netlify.app/',
   },
   {
     title: 'Bankist App',
-    lang: 'HTML, CSS, SCSS, JS',
+    lang: 'JavaScript, CSS, HTML',
     img: 'project_bankist-app-low.jpg',
     url: 'https://bankist-appsite.netlify.app/',
   },
   {
     title: 'Bankist User Interface',
-    lang: 'HTML, CSS, SCSS, JS',
+    lang: 'JavaScript, CSS, HTML',
     img: 'project_bankist-user-interface-low.jpg',
     url: 'https://bankist-webapp-interface.netlify.app/',
   },
   {
     title: 'Nature Design',
     lang: 'HTML, CSS, SCSS',
-    img: 'project_nat-low.png',
+    img: 'project_nat-low.jpg',
     url: 'https://natureweb-desing.netlify.app/',
   },
   {
     title: 'Nexter Design',
     lang: 'HTML, CSS and SCSS',
-    img: 'project_nexter-low.png',
+    img: 'project_nexter-low.jpg',
     url: 'https://nexterweb-desing.netlify.app/',
   },
   {
     title: 'Booker Design',
     lang: 'HTML, CSS and SCSS',
-    img: 'project_book-low.png',
+    img: 'project_book-low.jpg',
     url: 'https://bookingsweb-desing.netlify.app/',
+  },
+];
+export const clientSitesArr = [
+  {
+    title: 'Fuller Group',
+    lang: '',
+    img: 'clients/fuller-group.jpg',
+    url: 'https://thefullerproperties.com/',
+  },
+  {
+    title: 'David Thayer',
+    lang: '',
+    img: 'clients/david-thayer.jpg',
+    url: 'https://thayercoastalhomes.com/',
+  },
+  {
+    title: 'Patricia Isen',
+    lang: '',
+    img: 'clients/patricia-isen.jpg',
+    url: 'https://patriciagreeneisen.com/',
   },
 ];
 

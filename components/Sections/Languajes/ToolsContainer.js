@@ -9,6 +9,7 @@ const ToolsContainer = () => {
       {toolsArr.map((data) => (
         <IconShadow key={data.tool}>
           <h5 className="pb-4">{data.tool}</h5>
+<<<<<<< HEAD
           <Zoom>
             <Image
               src={data.imageUrl}
@@ -18,6 +19,15 @@ const ToolsContainer = () => {
               loading="eager"
             />
           </Zoom>
+=======
+          <Image
+            src={data.imageUrl}
+            alt={data.alt}
+            height="75"
+            width="75"
+            loading="eager"
+          />
+>>>>>>> update.1.0
         </IconShadow>
       ))}
     </div>
