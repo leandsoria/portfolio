@@ -1,12 +1,7 @@
 import Sidemenu from './Sidemenu';
-<<<<<<< HEAD
-import Image from 'next/image';
-import Slide from 'react-reveal/Slide';
-=======
 import { useState, useEffect } from 'react';
 import { NavbarLeft } from './Navbar/NavbarLeft';
 import NavbarRight from './Navbar/NavbarRight';
->>>>>>> update.1.0
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
