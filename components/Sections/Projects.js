@@ -15,12 +15,12 @@ const Projects = () => {
 
   const getNewArr = useMemo(() => {
     return typeSelected?.slice(firstTile, lastTile);
-  }, [typeSelected, firstTile]);
+  }, [typeSelected, firstTile, lastTile]);
 
   useEffect(() => {
     setAmountPages(Math.ceil(typeSelected.length / AMOUNT_PER_PAGE));
     setNewArr(getNewArr);
-  }, [firstTile, lastTile, typeSelected]);
+  }, [firstTile, lastTile, typeSelected, getNewArr]);
 
   const handlePageChange = (event, page) => {
     setFirstTile(AMOUNT_PER_PAGE * (page - 1));
