@@ -1,17 +1,4 @@
 export const ProjectArr = [
-<<<<<<< HEAD
-  // {
-  //   title: 'E-Commerce App \n\n (Under Construction)',
-  //   lang: 'HTML, Tailwind and NextJs',
-  //   img: 'project_e-commerce.png',
-  //   url: 'https://e-commerce-project-rho.vercel.app/',
-  // },
-  {
-    title: 'Booking App \n\n (Under Construction)',
-    lang: 'NextJS, Typescript and Tailwind',
-    img: 'project_booking-app.png',
-    url: 'https://booking-app-nu-ashy.vercel.app/',
-=======
   {
     title: 'Financial Dashboard',
     lang: 'React, TypeScript, Material UI',
@@ -29,7 +16,6 @@ export const ProjectArr = [
     lang: 'HTML, Tailwind and NextJs',
     img: 'project_e-commerce.jpg',
     url: 'https://e-commerce-project-rho.vercel.app/',
->>>>>>> update.1.0
   },
   {
     title: 'NextJS App Demo',
