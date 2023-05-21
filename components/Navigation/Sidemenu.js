@@ -34,8 +34,8 @@ const Sidemenu = ({ scrolled }) => {
             <NavbarItem onClick={sidemenuHandler} urlLink="#projects">
               Projects
             </NavbarItem>
-            <NavbarItem onClick={sidemenuHandler} urlLink="#experience">
-              Experience
+            <NavbarItem onClick={sidemenuHandler} urlLink="#skills">
+              Skills
             </NavbarItem>
             <NavbarItem onClick={sidemenuHandler} urlLink="#connect">
               Let&apos;s Connect!
