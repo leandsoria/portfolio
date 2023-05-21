@@ -94,18 +94,19 @@ const Projects = () => {
               button: {
                 color: 'white',
                 fontWeight: 700,
-                '&:hover': {
+                '&:not(.MuiPaginationItem-previousNext):hover': {
                   backgroundImage:
                     'linear-gradient(to right, #16a34a, #14532d)',
                   opacity: 0.7,
                 },
-                '&:not(.Mui-selected):hover': {
-                  backgroundImage:
-                    'linear-gradient(to right, #16a34a, #14532d)',
-                  opacity: 0.7,
-                },
+                '&:not(.Mui-selected):not(.MuiPaginationItem-previousNext):hover':
+                  {
+                    backgroundImage:
+                      'linear-gradient(to right, #16a34a, #14532d)',
+                    opacity: 0.7,
+                  },
               },
-              '.Mui-selected': {
+              '.Mui-selected:not(.MuiPaginationItem-previousNext)': {
                 backgroundImage: 'linear-gradient(to right, #16a34a, #14532d)',
               },
             },
