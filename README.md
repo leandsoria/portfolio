@@ -11,7 +11,8 @@ Deployment Link
 
 - NextJs
 - Tailwind
+- Material UI
 
 ### Libraries
 
-- [React Reveal](https://www.react-reveal.com/)
+- [Frame Motion](https://www.framer.com/motion/)
