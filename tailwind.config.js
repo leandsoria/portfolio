@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '350px',
+      },
       backgroundImage: {
         opening:
           'linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.3)),url(/backgrounds/openingbackground-minimized.jpg)',
