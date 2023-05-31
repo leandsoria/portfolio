@@ -1,10 +1,9 @@
-
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const Opening = () => {
   return (
-    <section className="min-h-max lg:min-h-[100vh] flex justify-center pb-16 pt-32  lg:py-28 lg:pt-48 relative overflow-hidden  bg-opening animate-backgroundAnimation bg-repeat-x bg-zero">
+    <section className="min-h-max lg:min-h-[100vh] flex justify-center pb-16 pt-32  lg:py-28 lg:pt-48 relative overflow-hidden  bg-opening animate-backgroundAnimation bg-repeat bg-zero">
       <div className=" lg:w-4/5 flex flex-col lg:flex-row justify-center items-center relative z-10 px-10 gap-8">
         <div className="text-center lg:text-left lg:w-3/5">
           <motion.h3
