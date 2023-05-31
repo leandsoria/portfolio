@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       screens: {
         xs: '350px',
+        tall: {
+          raw: '(min-height: 1200px)',
+        },
       },
       backgroundImage: {
         opening:
