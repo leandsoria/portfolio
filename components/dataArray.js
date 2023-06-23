@@ -1,5 +1,17 @@
 export const ProjectArr = [
   {
+    title: 'Linear Website',
+    lang: 'React & Tailwind',
+    img: 'linear-web.png',
+    url: 'https://supplement-incrementum.vercel.app/',
+  },
+  {
+    title: 'Mars Rover Photos',
+    lang: 'React, Tailwind & Material UI',
+    img: 'mars-rovers.jpg',
+    url: 'https://marsroverphotos.vercel.app/',
+  },
+  {
     title: 'Financial Dashboard',
     lang: 'React, TypeScript, Material UI',
     img: 'finanseer_dashboard.jpg',
