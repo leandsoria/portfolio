@@ -8,7 +8,7 @@ const experienceArr = [
     company: 'Luxury Presence',
     content:
       "As a Team Leader & Front end Developer, my labor consists of helping the team to improve their performance and skills and solve any technical issue. \n  We provide award-winning websites and cutting-edge tech to the world's top real estate agents.",
-    image: '/experiences/luxury-presence.jpg',
+    image: '/experiences/luxury-presence.webp',
   },
   {
     passClass: 'lg:flex-row-reverse md:py-0 md:pb-0',
@@ -16,7 +16,7 @@ const experienceArr = [
     company: 'Freelance',
     content:
       'Armed with React, Next.js, Tailwind CSS, CSS, and Bootstrap, I have the skills and knowledge to transform complex ideas into intuitive and visually impressive web applications.',
-    image: '/experiences/freelance_front-end.jpg',
+    image: '/experiences/freelance_front-end.webp',
   },
 ];
 
